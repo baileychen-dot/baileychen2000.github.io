@@ -1,0 +1,1106 @@
+[
+  {
+    "number": "001",
+    "slug": "game-project",
+    "category": "team",
+    "title": "Game Project",
+    "content": [
+      {
+        "type": "text",
+        "text": "Asymmetrical PvP Game Project | Art Direction & 3D Environment Design"
+      },
+      {
+        "type": "image",
+        "src": "assets/subway-scare-cover.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Developed in Unreal Engine, this project is a fast-paced, 1v1 asymmetrical PvP party game set within a chaotic, abandoned subway system. The gameplay pits a Hunter against a Monster in a tense game of evasion and psychological mind games, where the Monster attempts to corrupt the environment while the Hunter fights to preserve their Sanity (SAN) and intercept them."
+      },
+      {
+        "type": "text",
+        "text": "As both the Art Director and the lead Environment Artist on this team project, my challenge was to establish a unified visual identity while driving the heavy lifting of the 3D production pipeline. On the directional side, I created comprehensive style guides to align our VFX, lighting, and animation artists, ensuring every asset reinforced the game’s core tension and mechanical readability."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/CC4eTwGqexW/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/JsqcfFMCNPg/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "On the production side, I personally designed and built the modular environment kits used to construct the subway system, utilizing a streamlined workflow in Maya and UE to craft the gritty, industrial architecture. To make the environment truly dynamic, I developed master materials and procedural texturing pipelines to handle the stark visual transition between reality and supernatural corruption. By closely bridging the gap between artistic vision and technical implementation in Unreal Engine, I managed asset optimization for real-time performance while ensuring our team delivered a beautifully atmospheric, high-pressure competitive arena."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/07.png"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/8W7ZYzkdjUy/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "As the Art Director and leader of this team project, my primary responsibility was to translate a fast-paced, high-concept gameplay hook into a cohesive, production-ready visual style. To align a multidisciplinary team of artists, I established a comprehensive visual bible and style guides that explicitly defined our target aesthetics: a hybrid of gritty, grounded realism for the industrial subway architecture and a vibrant, high-contrast palette for the supernatural corruption zones."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/09.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Leadership, to me, meant acting as the visual gatekeeper and the bridge between art and game design. I instituted daily stand-ups and regular asset review pipelines, ensuring that every animation, VFX, and lighting element directly served the game's strict mechanical readability requirements—such as ensuring the Monster remains distinct in dark tunnels and making the Hunter's declining Sanity visually unmistakable. By fostering an open, collaborative atmosphere, I guided our team through rapid prototyping phases, resolved creative bottlenecks, and maintained visual consistency across all departments. Ultimately, I ensured that the team delivered a highly polished, optimized, and atmospheric competitive arena on schedule within Unreal Engine."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/10.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/11.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/12.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/13.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/14.png"
+      },
+      {
+        "type": "text",
+        "text": "On the production side, I was responsible for taking the subway environment from initial blockout to final, game-ready implementation inside Unreal Engine. To efficiently construct the sprawling, claustrophobic transit hub, I designed and modeled a comprehensive modular architectural kit using Maya and ZBrush. This included structural pillars, tiled wall panels, vaulted ceiling arches, and track assets that snapped perfectly to the grid, allowing for rapid layout iterations while keeping the draw-call count low."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/15.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/16.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/17.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/18.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/19.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/20.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/21.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/22.png"
+      },
+      {
+        "type": "text",
+        "text": "I also took charge of prop scattering and set dressing to make the space feel lived-in and abandoned, while meticulously optimizing low-poly topologies, LODs (Level of Detail), and lightmaps to ensure the environment maintained a flawless, competitive frame rate without sacrificing atmospheric depth."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/23.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/24.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/25.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/2EsNg3Px84v/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "To complement the fast-paced gameplay, I designed the user interface with a strict focus on minimalism and high-contrast readability. The UI styling embraces an industrial, utilitarian aesthetic for the menus and HUD, which completely shifts when gameplay mechanics trigger state changes."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/26.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/27.jpg"
+      },
+      {
+        "type": "text",
+        "text": "For the game’s marketing materials and promotional poster, my goal was to distill the entire asymmetric, psychological experience into a single, high-impact key art illustration. I composed the poster to emphasize the tense power dynamic of the cat-and-mouse chase, utilizing a dramatic Geometric Futurism composition within the subway tunnels. I established a stark visual contrast using a split color palette—juxtaposing the cool, dark, gritty tones of the industrial subway against the hot, glowing neon hue of the Monster’s corruption energy. This composition creates an immediate narrative hook, capturing the scale of the subterranean environment while instantly communicating the game’s core conflict to potential players."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/28.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/game-project/29.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Ultimately, my core mission on this project was Main Art Style Control—acting as the creative anchor to ensure that every environment asset, UI element, and piece of promotional art felt like it belonged to the exact same world. By establishing a definitive visual language that contrasted grounded, gritty industrial structuralism with vibrant, supernatural corruption, I successfully maintained stylistic cohesion across a multi-disciplinary team. Balancing high-level art direction, UI/UX design, and marketing art with hands-on 3D environment production allowed me to bridge the gap between creative vision and technical execution within Unreal Engine. This project stands as a testament to the power of structured leadership, cross-department collaboration, and intentional, gameplay-driven art design that elevates a fast-paced competitive experience from a mechanical prototype to an immersive, atmospheric reality."
+      }
+    ]
+  },
+  {
+    "number": "002",
+    "slug": "environment-design",
+    "category": "3d",
+    "title": "Environment Design",
+    "content": [
+      {
+        "type": "text",
+        "text": "Sci-Fi Industrial Environment | Modular Asset & Procedural Material Study"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/01.png"
+      },
+      {
+        "type": "text",
+        "text": "A sci-fi environment study exploring mood, lighting, and material storytelling. I focused on balancing hard-surface modeling with procedural texturing to create a believable yet stylized space. The scene aims to convey a quiet, immersive atmosphere through light, color, and composition."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/02.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/03.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/QIgb89XcXwK/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "This project follows a full environment pipeline using Blender and Maya for modeling, with UVs optimized in RizomUV. Procedural materials were created in Substance 3D Designer, with additional detailing in Substance 3D Painter. The scene was assembled and rendered in Unreal Engine 5, where I focused on lighting, material blending, and atmosphere to achieve a cohesive and immersive result."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/06.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Assets were designed with a modular workflow, focusing on reusability and consistency across the scene. Modeling was done in Blender and Maya, starting from blockout to refined hard-surface assets. UVs were optimized in RizomUV to ensure efficient texture usage. Procedural materials created in Substance 3D Designer provided a consistent base, while additional detailing in Substance 3D Painter added variation and storytelling elements."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/07.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/09.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Sci-fi materials were created in Substance 3D Designer using a procedural workflow. I began with primary and secondary shapes to define panel layouts and mechanical structure, then layered finer details to enhance surface complexity. Height information was used to generate normal and AO maps, ensuring strong depth and readability. Color and roughness maps were developed with subtle variation to simulate different surface conditions. Key parameters were exposed for flexibility and reuse."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/FH7872SgoWs/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/10.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/11.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/12.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/environment-design/13.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The final cinematic focuses on creating a moody and immersive sci-fi atmosphere. Through controlled lighting, contrast, and color balance, the scene conveys a sense of quiet tension and subtle narrative. Soft ambient light combined with focused highlights helps guide the viewer’s attention while enhancing depth and spatial layering."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/JemsGVrNSVV/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "003",
+    "slug": "character-design",
+    "category": "3d",
+    "title": "Character Design",
+    "content": [
+      {
+        "type": "text",
+        "text": "3D Character Design | High-Poly Sculpture & ZBrush"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "For the character asset, I executed the full high-poly production pipeline, focusing purely on 3D form, anatomy, and digital sculpting within ZBrush. The workflow began with a rigorous blockout phase, where I prioritized silhouette readability and proportions to ensure the character commands a strong visual presence within the game's environment."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/N5_JZjgtxW7/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "The final high-poly sculpt serves as a highly detailed, polished foundation engineered to seamlessly transition into the texturing and game-ready baking pipelines."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/02.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/03.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/04.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/05.png"
+      },
+      {
+        "type": "text",
+        "text": "The creation of this character followed a rigorous high-poly sculpting pipeline inside ZBrush, focusing on silhouette readability, structural anatomy, and clean mechanical execution. The process began with a geometric blockout to lock in core proportions and ensure a striking, instantly recognizable silhouette for the fast-paced gameplay. Next, the forms were fused using DynaMesh to sculpt the underlying anatomy, while SubTool extractions were used to build layered garments and realistic fabric folds. To align the asset with our game's industrial aesthetic, I utilized ZModeler and edge creasing to achieve crisp, hard-surface mechanical components. Finally, after optimizing the topology with ZRemesher, the model was subdivided to apply high-frequency tertiary details like structural seams and micro-surface wear, resulting in a highly polished, production-ready digital sculpture."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/07.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/09.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/10.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/11.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/12.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/5WcjdCL7cpg/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/8bwZfSAZJ47/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "For the texturing phase, I established a Physically Based Rendering (PBR) pipeline within Substance Painter to seamlessly anchor the character into our game's environment. After baking the high-poly ZBrush details onto the optimized low-poly mesh, I focused on surface contrast by layering heavy, matte industrial fabrics alongside scratched metallic gear and glossy glass visors. Using smart masks and procedural generators, I carefully added realistic environmental wear."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/13.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/14.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/15.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/16.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/17.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/18.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/19.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/20.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/21.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/22.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Ultimately, this character asset serves as a testament to bridging high-level art direction with rigorous 3D execution. By controlling the entire pipeline—from the initial ZBrush silhouette blockout to the final PBR texture passes—I ensured the character perfectly embodies the project's industrial aesthetic."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/character-design/23.jpg"
+      }
+    ]
+  },
+  {
+    "number": "004",
+    "slug": "substance-designer",
+    "category": "3d",
+    "title": "Substance Designer",
+    "content": [
+      {
+        "type": "text",
+        "text": "Procedural Sci-Fi Material Collection | Substance 3D Designer"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project showcases a collection of procedural sci-fi materials created in Substance 3D Designer. The materials were inspired by real-world references and photographic textures, combining industrial realism with a futuristic sci-fi aesthetic. Each material was carefully developed to be modular, reusable, and adjustable, making it suitable for environment design and real-time applications. The collection includes a variety of surface types, such as metallic panels, worn machinery, industrial pipes, and mechanical components, all designed to convey depth, detail, and visual interest."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/02.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/03.png"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/5zdsfGBuvYh/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/04.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/05.png"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/A9_JdNy6DDU/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/06.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/07.png"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/5k5kCSC6y-U/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/08.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/09.png"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/7qKTfATNSL9/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "This project presents a simple sci-fi environment built entirely using my procedural material library, showcasing both the old and new versions of each material for comparison. It demonstrates a full asset and environment production workflow, from modeling to final scene assembly. This project showcases a simple sci-fi scene built using my procedural material library. Assets were modeled in Maya and UV-mapped in RizomUV, while all materials were created and refined in Substance 3D Designer and Painter. The scene was assembled in Unreal Engine 5, highlighting both old and new material versions to show iterative improvements and enhanced surface detail."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/10.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/11.png"
+      },
+      {
+        "type": "text",
+        "text": "For this project, each material was created using Substance 3D Designer and Substance 3D Painter, producing two distinct versions: old and new. The old version followed the initial procedural setup, focusing on base shapes and basic surface details. The new version was iteratively refined with additional layers, enhanced edge wear, improved paneling, and color/roughness adjustments to increase realism and readability. This approach allowed a direct comparison, showcasing workflow improvements and the evolution of material quality."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/12.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/13.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/14.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/15.png"
+      },
+      {
+        "type": "text",
+        "text": "The lace material was created in Substance 3D Designer by first defining the base pattern using tile generators and shape nodes to form the intricate lace motifs. Noise and curvature variations were layered to add subtle depth and imperfection, and height information was refined to enhance normal and ambient occlusion maps. Finally, roughness and color maps were adjusted to capture the delicate, semi-transparent look of lace while keeping the material procedural and easily adjustable."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/16.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/17.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/18.png"
+      },
+      {
+        "type": "text",
+        "text": "The brick pattern was created in Substance 3D Designer by using tile generators to define the brick layout, combined with shape nodes and procedural masks to create cracks, grooves, and surface variation."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/substance-designer/19.png"
+      },
+      {
+        "type": "text",
+        "text": "The final video presents the assembled sci-fi scene, showcasing the application of procedural materials in a real-time environment. It highlights the visual improvements between old and new material versions, as well as the overall atmosphere, lighting, and depth of the scene. Subtle highlights, reflections, and ambient lighting guide the viewer’s attention while emphasizing scale and surface detail."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/IBW7LPLQeEX/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "005",
+    "slug": "procedural-materials",
+    "category": "3d",
+    "title": "Procedural Materials",
+    "content": [
+      {
+        "type": "text",
+        "text": "Subsurface Scattering (SSS) Material with Moss & Plants | Substance 3D Designer & Painter"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project showcases a procedural subsurface scattering (SSS) material featuring plants and moss, designed to capture the delicate translucency and organic details of natural surfaces. The material was created to be versatile and adjustable, suitable for both close-up renders and real-time environment applications. In Substance 3D Designer, the base forms of moss and plant structures were created using procedural shapes, noise, and tile generators to define organic patterns and depth. Height and curvature maps were generated to drive SSS and surface variation. In Substance 3D Painter, additional color variation, subtle translucency adjustments, and fine details were applied, enhancing the perception of soft, semi-transparent organic surfaces. The final SSS effect was tested in real-time to ensure proper light diffusion and realistic shading."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/02.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/03.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/04.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/05.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/06.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/07.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/08.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/09.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/10.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/11.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/12.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/13.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/14.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/15.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/16.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/17.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-materials/18.png"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/S8CF-ensY7d/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "006",
+    "slug": "ue-sequence",
+    "category": "3d",
+    "title": "UE Sequence",
+    "content": [
+      {
+        "type": "text",
+        "text": "Unreal Engine | Modeling, Animation & Visual Development"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ue-sequence/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project is a cinematic sequence created in Unreal Engine using Sequencer. All assets were self-designed and modeled, with animations crafted to support visual storytelling and motion. The focus was on composition, camera movement, and timing to create a cohesive cinematic experience. Lighting and materials were carefully refined to enhance mood and visual quality, resulting in a polished real-time sequence."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ue-sequence/02.jpg"
+      },
+      {
+        "type": "text",
+        "text": "All models were designed and created from scratch, starting with concept sketches. High-poly models were made for detail, then optimized to low-poly for real-time use. UVs and materials were applied and tested in-engine before integration into the cinematic sequence."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ue-sequence/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ue-sequence/04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ue-sequence/05.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The cinematic sequence was built in Unreal Engine using Sequencer. Cameras, animations, and timing were carefully arranged to tell a cohesive visual story. All animations, including character and environmental movements, were integrated and iteratively refined, with lighting and materials adjusted to enhance mood and cinematic impact."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ue-sequence/06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ue-sequence/07.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ue-sequence/08.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The final video showcases the cinematic sequence, highlighting the environment, modeled assets, and animations in motion. It demonstrates camera work, lighting, and dynamic elements, giving a complete view of the scene and storytelling."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/Rtw-UED5RE-/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "007",
+    "slug": "gameplay-demo",
+    "category": "team",
+    "title": "Gameplay Demo",
+    "content": [
+      {
+        "type": "text",
+        "text": "Stylized Sci-Fi Racing Track | Modular Level Design & Asset Development"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/gameplay-demo/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project is a racing game focused on speed, control, and player immersion. Players navigate through a variety of track environments, mastering acceleration, drifting, and timing to outperform opponents. The experience emphasizes responsive vehicle handling and dynamic gameplay, creating a balance between realism and arcade-style excitement."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/gameplay-demo/02.png"
+      },
+      {
+        "type": "text",
+        "text": "Assets were created using a modular workflow, starting from reference and concept development. Models were optimized for real-time use, with procedural materials ensuring consistency and flexibility. The final environment was assembled in-engine, followed by lighting, composition, and performance optimization."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/gameplay-demo/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/gameplay-demo/04.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/gameplay-demo/05.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/gameplay-demo/06.png"
+      },
+      {
+        "type": "text",
+        "text": "The level was built in Blueprint using a custom system I developed to streamline modular asset placement and track setup. This allowed for quick iteration and flexible adjustments. The scene was continuously tested and refined, focusing on flow, pacing, and overall player experience. Iterative playtesting helped improve navigation clarity and gameplay balance."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/gameplay-demo/07.png"
+      },
+      {
+        "type": "text",
+        "text": "The level features obstacles, item pickups, and enemy elements to enhance challenge and gameplay variety. These systems were designed to support player interaction and pacing. The final video showcases the environment, gameplay, and overall experience in motion."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/gameplay-demo/08.png"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/ARQ8TKHcV8V/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "008",
+    "slug": "fixed-screen-game",
+    "category": "3d",
+    "title": "Fixed-Screen Game",
+    "content": [
+      {
+        "type": "text",
+        "text": "Gameplay Systems & Modular Blueprint Components | Item, Platform, Enemy & Trap Implementation"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project demonstrates a complete set of gameplay functions implemented through modular Blueprint Components in Unreal Engine, including collectible items like score and health pickups, moving and rotating platforms, enemies with auto-tracking or fixed turrets, spinning saw hazards, traps such as mines and explosive triggers, and scoring systems for coins and stars. Each component is designed for reuse, enabling dynamic interactions, flexible level design, and modular, scalable gameplay mechanics suitable for prototypes or full game development."
+      },
+      {
+        "type": "text",
+        "text": "PROJECT 01 Key Features:Item Pickups: Players can collect various items, with logic handled by modular blueprints.Scoring & Counting Mechanics: Tracks player progress and updates scores in real time.Interactive Treasure Chests: Blueprints manage chest interactions and reward delivery.Player Health Management: Health bars and damage logic provide immediate feedback to the player. Design Approach: Each system is modular and reusable, designed to support dynamic interactions, deliver clear player feedback, and serve as the foundation for more complex gameplay features."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/02.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/04.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This video showcases the core gameplay systems implemented with Blueprint Components, highlighting item pickups, scoring mechanics, interactive treasure chests, and player health management. It demonstrates how each system responds dynamically to player interactions, with real-time feedback through score updates, health bar changes, and chest rewards. The video also illustrates the modular design of the blueprints, showing how these foundational mechanics can be easily reused and adapted for different levels or gameplay scenarios."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/2bUSDZ_aX98/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "PROJECT 02 Swinging obstacles that damage the player on contact, with modular movement and collision logic.Damage-Dealing Enemies: Enemies designed to inflict harm through contact or attack patterns.Fixed Hazards: Static traps that continuously pose danger in the level, such as spikes or crushing elements.Moving Platforms: Multi-path and dynamic platforms that challenge player navigation and timing. Design Approach: All systems are modular and reusable, allowing flexible placement and combination within different levels. The blueprints support dynamic interactions and provide clear visual and gameplay feedback, forming the core mechanics for challenging level design."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/07.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The video demonstrates these enemy and hazard systems in action, showcasing pendulum and damage-dealing enemies, fixed traps, and moving platforms interacting with the player. It highlights the modularity and flexibility of the blueprint components, emphasizing both gameplay challenge and level design versatility."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/PuM_hA64kKo/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "PROJECT 03 Projectiles that automatically track and follow the player, with modular targeting and movement logic.Projectile Weapons: Various fired objects with customizable speed, trajectory, and damage properties.Turret Variants: Includes auto-tracking turrets, fixed turrets, and rotating turrets, each with independent attack and targeting behaviors.Damage Handling: All projectiles and turrets integrate with player health systems for responsive feedback. Design Approach: Blueprint components are modular and reusable, enabling easy adaptation of turrets and projectile behaviors across multiple levels. The system emphasizes dynamic interactions, tactical gameplay challenge, and scalability for more complex combat mechanics."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/09.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/10.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The video showcases different turret types, homing missiles, and projectile attacks interacting with the player. It demonstrates modular blueprint implementation, highlighting how each component can be combined to create engaging and varied combat scenarios."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/UkcbqSGWURE/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "This project integrates all previously developed gameplay components into a single 2D side-scrolling game, featuring item pickups, scoring, treasure chests, health management, pendulum and damage enemies, moving platforms, projectile systems, and turret variants. It combines these mechanics into a cohesive gameplay experience, enhanced by a distinctive stylized visual design and visual effects, modular blueprint architecture for reusable and flexible level design, and clear UI feedback systems including health bars, score counters, and interactive indicators to improve player experience."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/11.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/12.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/fixed-screen-game/13.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The video showcases the fully integrated side-scrolling game in action, highlighting item pickups, enemy interactions, moving platforms, projectile attacks, and stylized UI elements. It demonstrates the modularity of the components and the cohesive gameplay experience created by combining all prior systems."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/8o-VjcWiIeZ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "009",
+    "slug": "level-dressing",
+    "category": "3d",
+    "title": "Level Dressing",
+    "content": [
+      {
+        "type": "text",
+        "text": "Forgotten Ruins/Level Dressing/3D Environmental"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/level-dressing/01.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/level-dressing/02.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/level-dressing/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/level-dressing/04.jpg"
+      },
+      {
+        "type": "text",
+        "text": "video showcase"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/2v-oJMGx3oG/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "010",
+    "slug": "procedural-content-generation",
+    "category": "3d",
+    "title": "Procedural Content Generation",
+    "content": [
+      {
+        "type": "text",
+        "text": "UE PCG Systems | Spline, Density, and Procedural Content Implementation"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "An Unreal Engine PCG study covering spline-based terrain, procedural vegetation, modular Blueprints, and performance optimization."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/02.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/03.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/9Cz6JQRmBd6/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "A procedural vegetation study using splines, density controls, point placement, and reusable Blueprint systems."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/07.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/08.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/FY_7JqzpyYh/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "Custom PCG graphs and tools extend the system into a flexible workflow for dynamic environment generation."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/09.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/10.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/11.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/FcPRuWeI_eT/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/procedural-content-generation/12.jpg"
+      }
+    ]
+  },
+  {
+    "number": "011",
+    "slug": "unity-shader",
+    "category": "3d",
+    "title": "Unity Shader",
+    "content": [
+      {
+        "type": "text",
+        "text": "Unity Shader Systems | Shader Graph, Lighting, and Stylized Rendering"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/unity-shader/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project focuses on creating stylized shaders in Unity using Shader Graph and applying them within a real-time game scene. It includes custom shaders, material setups, and their integration across environment assets to achieve a cohesive visual style. The workflow combines shader development with lighting and rendering adjustments to enhance both visual quality and performance."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/unity-shader/02.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/AiBbLuQXaeZ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/unity-shader/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/unity-shader/04.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/W-rTNaIQ24B/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/unity-shader/05.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/9gyhnnMNp-_/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "This part presents a stylized game environment with a focus on cartoon rendering and shader development in Unity. The visual style is driven by custom shaders created with Shader Graph, emphasizing simplified lighting, bold color control, and non-photorealistic shading. Shaders were designed to enhance surface readability and artistic expression, and were applied across the scene to maintain a consistent stylized look. Combined with lighting and post-processing, the project highlights the integration of technical shader work and visual design to achieve a cohesive cartoon-style environment."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/unity-shader/06.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/unity-shader/07.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/JAgfZb2dZaB/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "This scene explores a stylized environment with an emphasis on cartoon-style rendering and shader variation. Custom shaders were developed in Unity using Shader Graph to create distinct material responses, including soft shading transitions, controlled highlights, and simplified shadow behavior. Different shaders were applied to various assets to introduce visual contrast while maintaining overall stylistic consistency. Through adjustments in lighting, color grading, and material parameters, the scene achieves a balanced look that combines artistic stylization with real-time rendering performance."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/unity-shader/08.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/SAqP8IFraUo/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "012",
+    "slug": "video-production",
+    "category": "team",
+    "title": "Video Production",
+    "content": [
+      {
+        "type": "image",
+        "src": "assets/portfolio/video-production/01.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/Csb4FGoaEF-/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/CybpRMFMKvP/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/DpMmB7fFYgx/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/TzdbLbIkigQ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  }
+]

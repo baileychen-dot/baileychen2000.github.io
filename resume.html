@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bailey Chen resume - AI artist, 3D technical artist, real-time visualization, and digital twin production.">
+    <title>Bailey Chen - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --ink: #f5f7f8;
+        --muted: rgba(245,247,248,.62);
+        --line: rgba(245,247,248,.16);
+        --glass: rgba(255,255,255,.055);
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        min-height: 100svh;
+        background: #050708;
+        color: var(--ink);
+        font-family: "Barlow", Arial, sans-serif;
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: -2;
+        background:
+          radial-gradient(circle at 72% 16%, rgba(170,210,225,.16), transparent 28%),
+          linear-gradient(135deg, rgba(255,255,255,.04), transparent 42%),
+          #050708;
+      }
+      body::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        background:
+          repeating-linear-gradient(0deg, rgba(255,255,255,.018) 0 1px, transparent 1px 5px),
+          repeating-linear-gradient(90deg, rgba(255,255,255,.012) 0 1px, transparent 1px 7px);
+        pointer-events: none;
+      }
+      a { color: inherit; }
+      .nav {
+        position: fixed;
+        left: 24px;
+        right: 24px;
+        top: 20px;
+        z-index: 5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+        color: rgba(255,255,255,.76);
+        font-size: 12px;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        mix-blend-mode: difference;
+      }
+      .nav a { text-decoration: none; }
+      .shell {
+        width: min(1480px, calc(100% - 42px));
+        margin: 0 auto;
+        padding: 120px 0 72px;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(240px, .44fr) minmax(0, 1fr);
+        gap: clamp(34px, 6vw, 92px);
+        align-items: end;
+        min-height: 58svh;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 44px;
+      }
+      .label {
+        font-family: Consolas, "Courier New", monospace;
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0;
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: clamp(78px, 13vw, 188px);
+        font-style: italic;
+        font-weight: 400;
+        line-height: .78;
+      }
+      .contact {
+        display: grid;
+        gap: 10px;
+        margin-top: 34px;
+        color: rgba(255,255,255,.82);
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 13px;
+      }
+      .summary {
+        max-width: 850px;
+        margin: 28px 0 0;
+        font-size: clamp(22px, 2.4vw, 42px);
+        font-weight: 300;
+        line-height: 1.06;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 32px;
+      }
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 40px;
+        padding: 0 15px;
+        border: 1px solid rgba(255,255,255,.22);
+        border-radius: 999px;
+        background: var(--glass);
+        text-decoration: none;
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 12px;
+        text-transform: uppercase;
+        backdrop-filter: blur(18px);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: minmax(250px, .36fr) minmax(0, 1fr);
+        gap: clamp(34px, 6vw, 92px);
+        padding-top: 52px;
+      }
+      .rail,
+      .main {
+        display: grid;
+        gap: 32px;
+        align-content: start;
+      }
+      section {
+        position: relative;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+      }
+      h2 {
+        margin: 0 0 16px;
+        color: rgba(255,255,255,.92);
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: clamp(34px, 4vw, 62px);
+        font-style: italic;
+        font-weight: 400;
+      }
+      h3 {
+        margin: 0;
+        color: rgba(255,255,255,.92);
+        font-size: clamp(20px, 2vw, 30px);
+        font-weight: 600;
+        line-height: 1.05;
+      }
+      p, li {
+        color: rgba(255,255,255,.76);
+        font-size: 17px;
+        line-height: 1.46;
+      }
+      .mini p {
+        margin: 0 0 18px;
+        font-size: 15px;
+      }
+      ul {
+        display: grid;
+        gap: 10px;
+        margin: 14px 0 0;
+        padding-left: 20px;
+      }
+      .job {
+        display: grid;
+        gap: 8px;
+        padding: 24px 0;
+        border-bottom: 1px solid rgba(255,255,255,.1);
+      }
+      .meta {
+        color: var(--muted);
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 12px;
+        letter-spacing: .06em;
+        text-transform: uppercase;
+      }
+      @media (max-width: 860px) {
+        .nav { left: 16px; right: 16px; }
+        .shell { width: min(100% - 30px, 1480px); padding-top: 96px; }
+        .hero,
+        .grid { grid-template-columns: 1fr; }
+        h1 { font-size: clamp(62px, 20vw, 128px); }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="index.html#about">Bailey Chen</a>
+      <a href="index.html#work">Project Index</a>
+    </nav>
+
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="label">AI Artist / 3D Technical Artist</p>
+          <div class="contact">
+            <span>Email: nachen2000@outlook.com</span>
+            <span>Tel: 912-210-7969</span>
+            <a href="https://www.linkedin.com/in/bailey-chen2000">LinkedIn / bailey-chen2000</a>
+            <a href="https://baileychen2000.myportfolio.com/">Portfolio / myportfolio.com</a>
+          </div>
+          <div class="actions">
+            <a class="pill" href="mailto:nachen2000@outlook.com">Contact</a>
+            <a class="pill" href="https://www.linkedin.com/in/bailey-chen2000/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+        <div>
+          <h1>Bailey<br>Chen</h1>
+          <p class="summary">3D technical artist and AI-driven visualization designer specializing in digital twins, real-time rendering, procedural environments, and production pipelines for high-fidelity game art.</p>
+        </div>
+      </header>
+
+      <div class="grid">
+        <aside class="rail">
+          <section class="mini">
+            <h2>Education</h2>
+            <p><strong>Savannah College of Art and Design</strong><br>M.A. Interactive Design and Game Development<br>Expected 09/2026</p>
+            <p><strong>Communication University of China</strong><br>B.A. Animation<br>06/2023</p>
+          </section>
+          <section class="mini">
+            <h2>Skills</h2>
+            <p><strong>3D + Real-Time:</strong> Unreal Engine 5 PCG, Unity, Maya, ZBrush, Cinema 4D</p>
+            <p><strong>AI + Prototyping:</strong> Generative AI platforms, AI agents, Figma, node-based architecture</p>
+            <p><strong>Rendering + Assets:</strong> Substance Painter, Marmoset Toolbag, Rizom UV</p>
+            <p><strong>Motion + Visual:</strong> Motion graphics, storyboarding, style frames, cinematic composition</p>
+            <p><strong>Adobe:</strong> Photoshop, Illustrator, After Effects, Premiere Pro, InDesign</p>
+          </section>
+        </aside>
+
+        <div class="main">
+          <section>
+            <h2>Experience</h2>
+            <article class="job">
+              <p class="meta">06/2026 - Now / ZASTI, Inc.</p>
+              <h3>AI and 3D Visualization Intern</h3>
+              <ul>
+                <li>Research, test, and integrate custom AI agents and generative tools into 3D workflows to automate asset generation and accelerate production.</li>
+                <li>Build high-fidelity, data-driven digital twin environments in Unreal Engine 5 and Unity, balancing performance with high-end visual fidelity.</li>
+              </ul>
+            </article>
+            <article class="job">
+              <p class="meta">01/2025 - 06/2025 / Beijing 51World Digital Twin Technology Co.</p>
+              <h3>3D Technical Artist Intern</h3>
+              <ul>
+                <li>Designed large-scale urban digital twin environments from real-world planning datasets using Unreal Engine PCG for vegetation and ecosystem systems.</li>
+                <li>Streamlined cross-team workflows by coordinating with GIS and engineering teams to assemble optimized 3D scenes for executive demos.</li>
+              </ul>
+            </article>
+            <article class="job">
+              <p class="meta">06/2023 - 07/2024 / Perfect World Co., Ltd.</p>
+              <h3>Cutscene Artist</h3>
+              <ul>
+                <li>Produced high-profile in-game cinematics and layouts for the mobile RPG Persona 5 Phantom X using Unity timeline tools.</li>
+                <li>Partnered with VFX and animation teams and coordinated technical feedback under tight deadlines.</li>
+              </ul>
+            </article>
+          </section>
+
+          <section>
+            <h2>Honors</h2>
+            <ul>
+              <li>London Design Awards Silver Winner, 11/2023</li>
+              <li>GBIDA International Golden Square Cup Creative Design Competition Finalist, 10/2023</li>
+              <li>Venice International Art and Design Award of Excellence, 12/2023</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
