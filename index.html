@@ -1309,6 +1309,7 @@
             <button class="filter active" data-filter="all">All</button>
             <button class="filter" data-filter="team">Team</button>
             <button class="filter" data-filter="3d">3D</button>
+            <button class="filter" data-filter="ai">AI</button>
           </div>
 
           <div class="project-list" aria-live="polite">
@@ -2197,7 +2198,7 @@
             }
             let content = project.content.map((item) => ({
               ...item,
-              text: item.text ? cleanProjectText(item.text) : item.text
+              text: item.text && project.category !== "ai" ? cleanProjectText(item.text) : item.text
             }));
             if (project.slug === "game-project") {
               let firstImageReplaced = false;
@@ -2229,7 +2230,7 @@
               ...project,
               content,
               title: titleOverrides[project.slug] || project.title,
-              categoryLabel: project.category === "team" ? "Team project" : "3D project",
+              categoryLabel: { team: "Team project", ai: "AI project" }[project.category] || "3D project",
               description,
               role: roleBySlug[project.slug] || "3D artist",
               year: "Selected work",
