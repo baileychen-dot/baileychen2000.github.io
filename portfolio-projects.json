@@ -1102,5 +1102,261 @@
         "src": "https://www-ccv.adobe.io/v1/player/ccv/TzdbLbIkigQ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
       }
     ]
+  },
+  {
+    "number": "013",
+    "slug": "ai-3d-workflow",
+    "category": "ai",
+    "title": "AI 3D Generation Workflow",
+    "content": [
+      {
+        "type": "text",
+        "text": "GenerativeAI  | 3DArt | DigitalContentCreation"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project explores how generative AI can be integrated into a traditional 3D production pipeline to create a more efficient, controllable, and repeatable creative workflow. Rather than relying on a single AI model, I designed a modular pipeline that combines Blender, ComfyUI, MidJourney, GPT, Unreal Engine, and AI coding agents."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/02.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project explores how generative AI can be integrated into a traditional 3D production pipeline to create a more efficient, controllable, and repeatable creative workflow. Rather than relying on a single AI model, I designed a modular pipeline that combines Blender, ComfyUI, MidJourney, GPT, Unreal Engine, and AI coding agents.\nThe workflow begins with structured 3D modeling in Blender, where geometry provides accurate spatial information. Using ComfyUI and ControlNet, depth maps and custom node-based workflows guide AI image generation while maintaining the original composition. MidJourney is then used to enhance visual style, and GPT assists with prompt optimization, workflow refinement, and iterative design decisions. After concept generation, AI tools such as Tripo AI and Hunyuan 3D are used to create 3D assets, followed by AI-assisted texture generation for higher-quality PBR materials. Finally, all assets are assembled in Unreal Engine, where procedural content generation (PCG), APIs, MCP, and AI coding agents help automate scene construction, improve production efficiency, and accelerate iteration.\nThrough this project, I learned not only how to use individual AI tools, but also how to design custom node-based workflows, integrate multiple AI systems, and combine them with traditional 3D production techniques. The primary objective is to transform AI from a probabilistic image generator into a controllable, modular, and production-ready pipeline for professional digital content creation."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/07.jpg"
+      },
+      {
+        "type": "text",
+        "text": "As a 3D artist, I naturally approach concept design from a modeling perspective rather than relying solely on text prompts. Instead of generating images from scratch, I first create a simple 3D blockout in Blender to establish the composition, scale, and spatial relationships. Using the Blender–ComfyUI integration, I extract depth information and combine it with ControlNet to guide AI image generation while preserving the original structure. I then use MidJourney to refine the artistic style and GPT to optimize prompts and iterate on the results. This workflow transforms AI image generation from a random process into a controllable and repeatable design pipeline."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/09.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/GuHrKwFfF33/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/HZIQzwvpL3d/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "I also researched and tested different AI models to understand their unique visual styles, strengths, and generation characteristics. By comparing their results, I was able to identify which models and combinations best supported my creative goals and build a workflow that was more suitable for my own 3D design process."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/10.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/11.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/12.jpg"
+      },
+      {
+        "type": "text",
+        "text": "For 3D asset generation, I built a workflow that combines multiple AI models to improve both efficiency and quality. I start with simple 3D geometry in Blender and use the Blender–ComfyUI plugin to generate three to five concept variations while preserving the original shape. Instead of relying on a single model, I use MidJourney as a style reference to provide a consistent visual direction. The generated concepts are then sent to GPT, where prompts are refined and the strongest ideas are combined into a final, higher-quality concept image. Finally, I use Adobe Firefly for additional editing and fine-tuning before moving to the next stage. This workflow allows me to batch-create multiple asset variations while keeping the overall design language consistent and significantly reducing iteration time."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/13.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/14.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/15.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/16.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/17.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/18.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/19.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/20.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/21.jpg"
+      },
+      {
+        "type": "text",
+        "text": "To efficiently produce a large number of props, I developed a batch asset generation workflow. Starting from simple 3D blockouts, I generated multiple concept variations for different prop shapes using Blender and the ComfyUI integration. Once the concepts were finalized, I used AI-based 3D generation tools such as Tripo AI and Hunyuan 3D to quickly convert the concepts into initial 3D models. However, during testing, I found that while these one-click AI generation tools produced geometry efficiently, the texture quality was often inconsistent and lacked the level of detail required for production. To address this limitation, I continued exploring ComfyUI and built a dedicated AI texture generation workflow to improve PBR texture quality, including normal, roughness, and ambient occlusion maps. This allowed me to combine the speed of AI model generation with a more controllable texture pipeline, producing assets that were better suited for professional 3D production."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/22.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This workflow summarizes the development process of the AI-assisted 3D texture pipeline. I first studied the fundamentals of AI-generated 3D assets and explored commercial tools such as Tripo, node-based workflows in ComfyUI with HY3D, open-source solutions including the StableGen Blender add-on, and related research on AI 3D texture generation. Throughout the project, I also used GPT, Gemini, Codex, Claude, Blender, and Substance 3D Painter for research, coding, workflow optimization, and production. After multiple iterations in ComfyUI and StableGen, I integrated the findings into a custom AI texture plugin for Substance Painter, creating a more efficient and production-ready texture generation workflow."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/23.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Through studying the StableGen plugin, I first realized that AI texture generation could be integrated directly into a 3D application. More importantly, I learned the fundamental workflow behind most AI-based 3D texture generation systems. The process typically begins by capturing multiple views of a 3D model with virtual cameras. These views, together with depth maps and ControlNet-based guidance, provide the AI with structural information about each surface. The model then generates textures for each view from text prompts, and the results are projected back onto the 3D model and blended into a complete texture. This projection-based multi-view workflow forms the core logic behind most current AI texture generation methods."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/24.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/25.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The plugin provides two complementary texture generation workflows. The first uses multi-view image projection, allowing users to generate textures from reference images with adjustable projection angles, image offsets, projection parameters, and selectable view presets (6, 10, or 16+ views) for different model complexities. The second integrates ComfyUI for AI-driven texture generation, enabling users to control prompts, negative prompts, sampling steps, and other generation parameters to produce high-quality PBR textures within a flexible and efficient workflow."
+      },
+      {
+        "type": "text",
+        "text": "The plugin was developed with the assistance of AI coding agents, including Claude and Codex, which were used for code generation, debugging, and workflow optimization. It communicates with the Adobe Substance 3D Painter API to integrate directly into the application, while the plugin itself is implemented using Python and JSON configuration files within the Substance Painter plugin framework, enabling a flexible and extensible architecture."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/26.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/EqNHFD-JRCs/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/27.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/28.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/29.jpg"
+      },
+      {
+        "type": "text",
+        "text": "For the scene assembly stage, I first build the overall environment manually in Unreal Engine to establish the composition, lighting, atmosphere, and visual direction. After defining the main look, I use AI coding agents such as Claude and Codex to assist with scene expansion and lightweight development tasks. These agents help me create functional components, procedural tools, dynamic sky systems, material variations, and other interactive or technical features. The goal of this stage is to explore how AI agents can work alongside traditional tools such as Unreal Engine and Blender, not to replace the artist, but to accelerate repetitive tasks and support areas that require light coding or technical implementation. Through this process, I am continuing to test different AI agents and build a more flexible, efficient, and integrated 3D production workflow."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/30.jpg"
+      },
+      {
+        "type": "text",
+        "text": "After assembling the scene in Unreal Engine, I render my own compositions from different camera angles and lighting setups. These renders become the foundation for further AI-assisted exploration. Instead of generating completely new scenes, I use my existing environment and selected camera views as references, allowing AI to produce multiple atmosphere variations, lighting conditions, and visual moods while preserving the original composition. These AI-generated references help me quickly explore creative directions and provide high-quality visual targets that I can bring back into Unreal Engine for further refinement. This creates an iterative workflow where traditional 3D production and AI continuously support and improve each other."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/31.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/32.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/33.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/34.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Traditionally, after completing an environment in Unreal Engine, I would manually create and keyframe a full set of cinematic cameras—including wide, medium, and close-up shots from multiple angles—to produce the final showcase video. To streamline this repetitive process, I developed a custom Unreal Engine camera automation plugin that generates a complete camera shot set based on user-defined requirements, such as shot type, viewing angle, framing, and camera movement. The generated cameras and shots are automatically organized into a Level Sequence, allowing a finished 3D environment to be quickly transformed into a structured cinematic presentation. This tool significantly reduces manual camera setup and enables an almost one-click workflow from completed environment to final showcase sequence."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/35.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/CXh4HjiAt6G/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/36.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/37.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/38.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/39.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project has been successfully completed as my thesis project. It integrates AI-assisted texture generation, procedural workflows, and traditional 3D production into a unified pipeline. The result demonstrates a more efficient, scalable, and production-ready workflow for AI-assisted 3D content creation."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/ILDzFP8Yk2N/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "I extended the 3D environment into a short cinematic narrative using node-based AI video generation workflows. Building on my original scene design, I used AI video tools to explore cinematic camera movement, character performance, and visual storytelling, transforming the environment from a static 3D scene into a dynamic narrative experience."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/40.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/P9vpEgFIVbK/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
   }
 ]

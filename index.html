@@ -916,6 +916,7 @@
         font-size: clamp(20px, 2.2vw, 34px);
         font-weight: 300;
         line-height: 1.25;
+        white-space: pre-line;
       }
       .next-project {
         width: 100%;
@@ -2174,6 +2175,7 @@
         };
         const roleBySlug = {
           "game-project": "Art director / Lead environment artist",
+          "ai-3d-workflow": "AI 3D workflow designer",
           "environment-design": "Environment artist",
           "character-design": "Character artist",
           "substance-designer": "Material artist",
@@ -2188,7 +2190,7 @@
         };
 
         try {
-          const response = await fetch("portfolio-projects.json?v=3", { cache: "no-store" });
+          const response = await fetch("portfolio-projects.json?v=4", { cache: "no-store" });
           if (!response.ok) throw new Error(`Project data returned ${response.status}`);
           const importedProjects = await response.json();
 
@@ -2234,7 +2236,9 @@
               description,
               role: roleBySlug[project.slug] || "3D artist",
               year: "Selected work",
-              tools: "3D production / Real-time media",
+              tools: project.category === "ai"
+                ? "Blender, ComfyUI, MidJourney, GPT, Unreal Engine"
+                : "3D production / Real-time media",
               image: coverOverrides[project.slug] || firstImage
             };
           });
