@@ -35,7 +35,8 @@
       }
 
       body.intro-locked { overflow: hidden; }
-      body.detail-open { overflow: hidden; }
+      body.detail-open,
+      body.studio-open { overflow: hidden; }
       a { color: inherit; text-decoration: none; }
       button { color: inherit; font: inherit; }
       [data-interactive],
@@ -759,6 +760,194 @@
         transition-delay: 0s;
       }
 
+      .studio {
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        overflow-y: auto;
+        visibility: hidden;
+        background: #000;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: transform .72s cubic-bezier(.76,0,.24,1), opacity .35s ease, visibility 0s .72s;
+      }
+      .studio.open {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0s;
+      }
+      .studio .detail-nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+      }
+      .studio-screen .page-inner {
+        display: grid;
+        align-content: center;
+        padding-top: 120px;
+        padding-bottom: 90px;
+      }
+      .studio-hero {
+        display: grid;
+        justify-items: center;
+        gap: 18px;
+        text-align: center;
+      }
+      .studio-name {
+        margin: 0;
+        font-size: clamp(64px, 11vw, 176px);
+        font-weight: 400;
+        line-height: .8;
+      }
+      .studio-name small {
+        display: block;
+        margin-top: 14px;
+        font-family: Consolas, "Courier New", monospace;
+        font-size: clamp(11px, 1vw, 14px);
+        font-style: normal;
+        letter-spacing: .32em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .studio-tagline {
+        margin: 0;
+        font-family: Consolas, "Courier New", monospace;
+        font-size: clamp(12px, 1.1vw, 16px);
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      .studio-intro {
+        max-width: 760px;
+        margin: 0;
+        color: rgba(255,255,255,.86);
+        font-size: clamp(16px, 1.5vw, 22px);
+        font-weight: 300;
+        line-height: 1.35;
+      }
+      .studio-tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin: 4px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+      .studio-tags li {
+        padding: 6px 10px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: rgba(0,0,0,.18);
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 11px;
+        letter-spacing: .06em;
+        text-transform: uppercase;
+      }
+      .studio-grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 14px;
+        margin-top: clamp(36px, 6vh, 70px);
+      }
+      .studio-card,
+      .connect-card {
+        position: relative;
+        display: grid;
+        align-content: start;
+        gap: 10px;
+        padding: 22px 20px 24px;
+        border: 1px solid rgba(255,255,255,.24);
+        border-radius: 8px;
+        background:
+          linear-gradient(135deg, rgba(255,255,255,.13), rgba(255,255,255,.025)),
+          rgba(8,14,16,.34);
+        box-shadow: inset 0 1px rgba(255,255,255,.23), 0 28px 80px rgba(0,0,0,.28);
+        backdrop-filter: blur(32px) saturate(145%);
+        -webkit-backdrop-filter: blur(32px) saturate(145%);
+        text-align: left;
+        transition: background .25s ease, color .25s ease, transform .25s ease;
+      }
+      .studio-card span,
+      .connect-card span {
+        color: var(--muted);
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 11px;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+      .studio-card h3,
+      .connect-card strong {
+        margin: 0;
+        font-size: clamp(17px, 1.4vw, 21px);
+        font-weight: 500;
+        line-height: 1.15;
+      }
+      .studio-card p {
+        margin: 0;
+        color: rgba(255,255,255,.74);
+        font-size: 14px;
+        line-height: 1.35;
+      }
+      .studio-card:hover { transform: translateY(-4px); }
+      .studio-next {
+        justify-self: center;
+        margin-top: 40px;
+        color: var(--muted);
+        font-size: 11px;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      .studio-next::after { content: " ↓"; }
+      .connect-heading {
+        display: grid;
+        justify-items: center;
+        gap: 14px;
+        text-align: center;
+      }
+      .connect-heading h2 {
+        margin: 0;
+        font-size: clamp(64px, 10vw, 160px);
+        font-weight: 400;
+        line-height: .8;
+      }
+      .connect-heading p {
+        max-width: 560px;
+        margin: 0;
+        color: rgba(255,255,255,.8);
+        font-size: clamp(14px, 1.2vw, 18px);
+        font-weight: 300;
+      }
+      .connect-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+        width: min(1100px, 100%);
+        margin: clamp(36px, 6vh, 70px) auto 0;
+      }
+      @media (max-width: 1000px) {
+        .studio-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .studio-grid > :last-child { grid-column: 1 / -1; }
+        .connect-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      }
+      .connect-card { grid-template-columns: 1fr auto; align-items: end; min-height: 120px; }
+      .connect-card span { grid-column: 1 / -1; }
+      .connect-card i { font-style: normal; font-size: 22px; }
+      a.connect-card:hover { background: #fff; color: #000; }
+      a.connect-card:hover span { color: rgba(0,0,0,.6); }
+      .connect-card.is-pending { opacity: .55; }
+      .connect-card.is-pending i { font-size: 11px; font-family: Consolas, "Courier New", monospace; letter-spacing: .06em; text-transform: uppercase; }
+      .studio-footer {
+        margin: 46px 0 0;
+        color: var(--muted);
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 11px;
+        letter-spacing: .08em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
       .detail-nav {
         position: sticky;
         top: 0;
@@ -1220,6 +1409,11 @@
         .detail-hero::before { inset: auto 14px 14px; height: 53vh; }
         .detail-content { padding: 54px 18px; }
         .case-study-note { grid-template-columns: 1fr; gap: 18px; }
+        .studio-screen .page-inner { padding: 100px 18px 60px; }
+        .studio-grid > :last-child { grid-column: 1 / -1; }
+        .studio-grid, .connect-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+        .studio-card, .connect-card { padding: 16px 14px 18px; }
+        .studio-card p { font-size: 13px; }
         .character-toggle {
           top: 92px;
         }
@@ -1246,9 +1440,6 @@
     <button class="opening-scene" type="button" aria-label="Enter Bailey Chen portfolio">
       <canvas class="opening-canvas" aria-hidden="true"></canvas>
       <span class="opening-vignette" aria-hidden="true"></span>
-      <span class="opening-name name-art" aria-label="Bailey Chen">
-        <img src="assets/bailey-liquid-name.png" alt="Bailey Chen">
-      </span>
       <span class="opening-enter">Click anywhere to enter</span>
     </button>
 
@@ -1268,7 +1459,7 @@
         <div class="page-inner intro-grid">
           <div class="intro-main">
             <p class="eyebrow">Introduction / Selected practice / 2026</p>
-            <button class="name-art intro-name-button" type="button" aria-label="Open project page" data-intro-toggle data-interactive>
+            <button class="name-art intro-name-button" type="button" aria-label="Open AINORU Studio" data-intro-toggle data-interactive>
               <img src="assets/bailey-liquid-name.png" alt="Bailey Chen">
             </button>
             <p class="intro-copy">
@@ -1319,6 +1510,74 @@
         </div>
       </section>
     </main>
+
+    <article class="studio" id="studio" aria-hidden="true" aria-label="AINORU Studio">
+      <nav class="detail-nav">
+        <button type="button" data-close-studio>← Back to portfolio</button>
+        <span>AINORU Studio LLC</span>
+      </nav>
+
+      <section class="screen studio-screen">
+        <canvas class="particle-canvas" data-background="assets/studio-bg-01.jpg" aria-hidden="true"></canvas>
+        <div class="page-inner">
+          <div class="studio-hero">
+            <p class="eyebrow">Studio / Leesburg, Virginia</p>
+            <h2 class="studio-name serif">AINORU Studio<small>Limited Liability Company</small></h2>
+            <p class="studio-tagline">AI Creative Technology · Education · Digital Media</p>
+            <p class="studio-intro">A founder-led studio at the intersection of game development, 3D production, interactive media, visual design and generative AI.</p>
+            <ul class="studio-tags">
+              <li>Online-first</li>
+              <li>Bilingual</li>
+              <li>China · U.S. / Global</li>
+              <li>Game · 3D · AI</li>
+            </ul>
+          </div>
+
+          <div class="studio-grid">
+            <article class="studio-card" data-interactive>
+              <span>01</span>
+              <h3>Portfolio &amp; Professional Education</h3>
+              <p>Portfolio guidance, project mentoring and career-oriented consulting.</p>
+            </article>
+            <article class="studio-card" data-interactive>
+              <span>02</span>
+              <h3>Game / 3D / AI Workshops</h3>
+              <p>Production pipelines, 3D workflows and AI-assisted creation.</p>
+            </article>
+            <article class="studio-card" data-interactive>
+              <span>03</span>
+              <h3>Digital Courses &amp; Products</h3>
+              <p>Recorded lessons, templates, project files and workflow resources.</p>
+            </article>
+            <article class="studio-card" data-interactive>
+              <span>04</span>
+              <h3>Creator Media</h3>
+              <p>Tutorials, project breakdowns and creative-technology content.</p>
+            </article>
+            <article class="studio-card" data-interactive>
+              <span>05</span>
+              <h3>Creative Services</h3>
+              <p>AI-assisted visual production, game/3D content and prototypes.</p>
+            </article>
+          </div>
+
+          <a class="studio-next" href="#studio-connect" data-studio-connect>Connect</a>
+        </div>
+      </section>
+
+      <section class="screen studio-screen" id="studio-connect">
+        <canvas class="particle-canvas" data-background="assets/studio-bg-02.jpg" aria-hidden="true"></canvas>
+        <div class="page-inner">
+          <div class="connect-heading">
+            <p class="section-index">AINORU Studio / Connect</p>
+            <h2 class="serif">{connect}</h2>
+            <p>Follow the work, tutorials and project breakdowns, or reach out for workshops, consulting and collaborations.</p>
+          </div>
+          <div class="connect-grid" data-connect-grid></div>
+          <p class="studio-footer">AINORU Studio LLC · Leesburg, Virginia</p>
+        </div>
+      </section>
+    </article>
 
     <article class="detail" id="project-detail" aria-hidden="true">
       <canvas class="detail-particle-canvas" aria-hidden="true"></canvas>
@@ -1691,9 +1950,53 @@
       new InteractiveCursor();
       new AmbientSound();
       const introToggle = document.querySelector("[data-intro-toggle]");
+      const studio = document.querySelector(".studio");
+      // Leave a URL empty until the account exists; its card shows "Soon" instead of a link.
+      const studioLinks = [
+        { label: "Xiaohongshu", note: "小红书", url: "" },
+        { label: "Bilibili", note: "Video", url: "" },
+        { label: "YouTube", note: "Video", url: "" },
+        { label: "Instagram", note: "Social", url: "" },
+        { label: "TikTok", note: "Video", url: "" },
+        { label: "X", note: "Social", url: "" },
+        { label: "LinkedIn", note: "Professional", url: "https://www.linkedin.com/in/bailey-chen2000/" },
+        { label: "Email", note: "nachen2000@outlook.com", url: "mailto:nachen2000@outlook.com" }
+      ];
+      document.querySelector("[data-connect-grid]").innerHTML = studioLinks.map((link) => link.url
+        ? `<a class="connect-card" href="${link.url}"${link.url.startsWith("http") ? ' target="_blank" rel="noreferrer"' : ""}>
+            <span>${link.note}</span><strong>${link.label}</strong><i aria-hidden="true">↗</i>
+          </a>`
+        : `<div class="connect-card is-pending" data-interactive>
+            <span>${link.note}</span><strong>${link.label}</strong><i>Soon</i>
+          </div>`
+      ).join("");
+
+      function openStudio() {
+        studio.classList.add("open");
+        studio.setAttribute("aria-hidden", "false");
+        document.body.classList.add("studio-open");
+        studio.scrollTop = 0;
+        history.replaceState(null, "", "#studio");
+      }
+
+      function closeStudio() {
+        studio.classList.remove("open");
+        studio.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("studio-open");
+        history.replaceState(null, "", "#about");
+      }
+
       introToggle?.addEventListener("click", (event) => {
         event.stopPropagation();
-        document.querySelector("#work")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        openStudio();
+      });
+      document.querySelector("[data-close-studio]").addEventListener("click", closeStudio);
+      document.querySelector("[data-studio-connect]").addEventListener("click", (event) => {
+        event.preventDefault();
+        document.querySelector("#studio-connect").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && studio.classList.contains("open")) closeStudio();
       });
       new OpeningScene(document.querySelector(".opening-scene"));
       if (new URLSearchParams(location.search).get("skipIntro") === "1") {
