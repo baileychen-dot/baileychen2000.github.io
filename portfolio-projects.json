@@ -1102,5 +1102,629 @@
         "src": "https://www-ccv.adobe.io/v1/player/ccv/TzdbLbIkigQ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
       }
     ]
+  },
+  {
+    "number": "013",
+    "slug": "ai-3d-workflow",
+    "category": "ai",
+    "title": "AI 3D Generation Workflow",
+    "content": [
+      {
+        "type": "text",
+        "text": "GenerativeAI  | 3DArt | DigitalContentCreation"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project explores how generative AI can be integrated into a traditional 3D production pipeline to create a more efficient, controllable, and repeatable creative workflow. Rather than relying on a single AI model, I designed a modular pipeline that combines Blender, ComfyUI, MidJourney, GPT, Unreal Engine, and AI coding agents."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/02.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project explores how generative AI can be integrated into a traditional 3D production pipeline to create a more efficient, controllable, and repeatable creative workflow. Rather than relying on a single AI model, I designed a modular pipeline that combines Blender, ComfyUI, MidJourney, GPT, Unreal Engine, and AI coding agents.\nThe workflow begins with structured 3D modeling in Blender, where geometry provides accurate spatial information. Using ComfyUI and ControlNet, depth maps and custom node-based workflows guide AI image generation while maintaining the original composition. MidJourney is then used to enhance visual style, and GPT assists with prompt optimization, workflow refinement, and iterative design decisions. After concept generation, AI tools such as Tripo AI and Hunyuan 3D are used to create 3D assets, followed by AI-assisted texture generation for higher-quality PBR materials. Finally, all assets are assembled in Unreal Engine, where procedural content generation (PCG), APIs, MCP, and AI coding agents help automate scene construction, improve production efficiency, and accelerate iteration.\nThrough this project, I learned not only how to use individual AI tools, but also how to design custom node-based workflows, integrate multiple AI systems, and combine them with traditional 3D production techniques. The primary objective is to transform AI from a probabilistic image generator into a controllable, modular, and production-ready pipeline for professional digital content creation."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/07.jpg"
+      },
+      {
+        "type": "text",
+        "text": "As a 3D artist, I naturally approach concept design from a modeling perspective rather than relying solely on text prompts. Instead of generating images from scratch, I first create a simple 3D blockout in Blender to establish the composition, scale, and spatial relationships. Using the Blender–ComfyUI integration, I extract depth information and combine it with ControlNet to guide AI image generation while preserving the original structure. I then use MidJourney to refine the artistic style and GPT to optimize prompts and iterate on the results. This workflow transforms AI image generation from a random process into a controllable and repeatable design pipeline."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/09.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/GuHrKwFfF33/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/HZIQzwvpL3d/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "I also researched and tested different AI models to understand their unique visual styles, strengths, and generation characteristics. By comparing their results, I was able to identify which models and combinations best supported my creative goals and build a workflow that was more suitable for my own 3D design process."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/10.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/11.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/12.jpg"
+      },
+      {
+        "type": "text",
+        "text": "For 3D asset generation, I built a workflow that combines multiple AI models to improve both efficiency and quality. I start with simple 3D geometry in Blender and use the Blender–ComfyUI plugin to generate three to five concept variations while preserving the original shape. Instead of relying on a single model, I use MidJourney as a style reference to provide a consistent visual direction. The generated concepts are then sent to GPT, where prompts are refined and the strongest ideas are combined into a final, higher-quality concept image. Finally, I use Adobe Firefly for additional editing and fine-tuning before moving to the next stage. This workflow allows me to batch-create multiple asset variations while keeping the overall design language consistent and significantly reducing iteration time."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/13.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/14.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/15.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/16.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/17.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/18.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/19.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/20.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/21.jpg"
+      },
+      {
+        "type": "text",
+        "text": "To efficiently produce a large number of props, I developed a batch asset generation workflow. Starting from simple 3D blockouts, I generated multiple concept variations for different prop shapes using Blender and the ComfyUI integration. Once the concepts were finalized, I used AI-based 3D generation tools such as Tripo AI and Hunyuan 3D to quickly convert the concepts into initial 3D models. However, during testing, I found that while these one-click AI generation tools produced geometry efficiently, the texture quality was often inconsistent and lacked the level of detail required for production. To address this limitation, I continued exploring ComfyUI and built a dedicated AI texture generation workflow to improve PBR texture quality, including normal, roughness, and ambient occlusion maps. This allowed me to combine the speed of AI model generation with a more controllable texture pipeline, producing assets that were better suited for professional 3D production."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/22.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This workflow summarizes the development process of the AI-assisted 3D texture pipeline. I first studied the fundamentals of AI-generated 3D assets and explored commercial tools such as Tripo, node-based workflows in ComfyUI with HY3D, open-source solutions including the StableGen Blender add-on, and related research on AI 3D texture generation. Throughout the project, I also used GPT, Gemini, Codex, Claude, Blender, and Substance 3D Painter for research, coding, workflow optimization, and production. After multiple iterations in ComfyUI and StableGen, I integrated the findings into a custom AI texture plugin for Substance Painter, creating a more efficient and production-ready texture generation workflow."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/23.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Through studying the StableGen plugin, I first realized that AI texture generation could be integrated directly into a 3D application. More importantly, I learned the fundamental workflow behind most AI-based 3D texture generation systems. The process typically begins by capturing multiple views of a 3D model with virtual cameras. These views, together with depth maps and ControlNet-based guidance, provide the AI with structural information about each surface. The model then generates textures for each view from text prompts, and the results are projected back onto the 3D model and blended into a complete texture. This projection-based multi-view workflow forms the core logic behind most current AI texture generation methods."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/24.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/25.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The plugin provides two complementary texture generation workflows. The first uses multi-view image projection, allowing users to generate textures from reference images with adjustable projection angles, image offsets, projection parameters, and selectable view presets (6, 10, or 16+ views) for different model complexities. The second integrates ComfyUI for AI-driven texture generation, enabling users to control prompts, negative prompts, sampling steps, and other generation parameters to produce high-quality PBR textures within a flexible and efficient workflow."
+      },
+      {
+        "type": "text",
+        "text": "The plugin was developed with the assistance of AI coding agents, including Claude and Codex, which were used for code generation, debugging, and workflow optimization. It communicates with the Adobe Substance 3D Painter API to integrate directly into the application, while the plugin itself is implemented using Python and JSON configuration files within the Substance Painter plugin framework, enabling a flexible and extensible architecture."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/26.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/EqNHFD-JRCs/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/27.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/28.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/29.jpg"
+      },
+      {
+        "type": "text",
+        "text": "For the scene assembly stage, I first build the overall environment manually in Unreal Engine to establish the composition, lighting, atmosphere, and visual direction. After defining the main look, I use AI coding agents such as Claude and Codex to assist with scene expansion and lightweight development tasks. These agents help me create functional components, procedural tools, dynamic sky systems, material variations, and other interactive or technical features. The goal of this stage is to explore how AI agents can work alongside traditional tools such as Unreal Engine and Blender, not to replace the artist, but to accelerate repetitive tasks and support areas that require light coding or technical implementation. Through this process, I am continuing to test different AI agents and build a more flexible, efficient, and integrated 3D production workflow."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/30.jpg"
+      },
+      {
+        "type": "text",
+        "text": "After assembling the scene in Unreal Engine, I render my own compositions from different camera angles and lighting setups. These renders become the foundation for further AI-assisted exploration. Instead of generating completely new scenes, I use my existing environment and selected camera views as references, allowing AI to produce multiple atmosphere variations, lighting conditions, and visual moods while preserving the original composition. These AI-generated references help me quickly explore creative directions and provide high-quality visual targets that I can bring back into Unreal Engine for further refinement. This creates an iterative workflow where traditional 3D production and AI continuously support and improve each other."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/31.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/32.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/33.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/34.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Traditionally, after completing an environment in Unreal Engine, I would manually create and keyframe a full set of cinematic cameras—including wide, medium, and close-up shots from multiple angles—to produce the final showcase video. To streamline this repetitive process, I developed a custom Unreal Engine camera automation plugin that generates a complete camera shot set based on user-defined requirements, such as shot type, viewing angle, framing, and camera movement. The generated cameras and shots are automatically organized into a Level Sequence, allowing a finished 3D environment to be quickly transformed into a structured cinematic presentation. This tool significantly reduces manual camera setup and enables an almost one-click workflow from completed environment to final showcase sequence."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/35.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/CXh4HjiAt6G/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/36.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/37.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/38.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/39.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project has been successfully completed as my thesis project. It integrates AI-assisted texture generation, procedural workflows, and traditional 3D production into a unified pipeline. The result demonstrates a more efficient, scalable, and production-ready workflow for AI-assisted 3D content creation."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/ILDzFP8Yk2N/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "I extended the 3D environment into a short cinematic narrative using node-based AI video generation workflows. Building on my original scene design, I used AI video tools to explore cinematic camera movement, character performance, and visual storytelling, transforming the environment from a static 3D scene into a dynamic narrative experience."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-3d-workflow/40.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/P9vpEgFIVbK/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "014",
+    "slug": "ai-video-generation",
+    "category": "ai",
+    "title": "AI Video Generation",
+    "content": [
+      {
+        "type": "text",
+        "text": "GenerativeAI  | AIVideo | CinematicDesign"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project explores an end-to-end AI filmmaking workflow, covering every stage from story development to final video production. The process begins with script writing, story development, and storyboard design. MidJourney is used to establish the visual style and generate key concept frames, while Runway, Higgsfield, and other AI video generation tools create cinematic shots and motion sequences. Each tool is selected for its strengths, allowing different parts of the production to achieve the best possible quality. Finally, all generated assets are integrated and organized in LTX Studio to build a complete narrative with consistent pacing, transitions, and visual storytelling. The project demonstrates how multiple AI models can work together to create a complete cinematic production pipeline, from initial concept to the final short film."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/02.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The story was entirely written and designed by me. Inspired by my interest in science fiction films, I created two opposing extraterrestrial civilizations and built the narrative around their long-standing conflict and history. The screenplay follows a classic three-act Hollywood structure: an opening that establishes the world and characters, a rising conflict leading to the climax, and a final twist that redefines the meaning of the story.\nAt the center of the narrative is the concept of Karma, symbolized by a single flower that appears throughout the film. Rather than focusing only on action or spectacle, the story explores the cycle of cause and consequence, using the conflict between the two civilizations to express an anti-war message. Through this symbolic narrative, I wanted to emphasize that violence ultimately leads to another cycle of suffering, making the film not only a science fiction story but also a reflection on humanity and conflict."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/06.jpg"
+      },
+      {
+        "type": "text",
+        "text": "To develop the visual world of the film, I combined multiple AI models, including MidJourney, Nobanana, GPT, Higgsfield, and Runway, with each tool contributing its own strengths to the creative process. Rather than relying on a single model, I explored different AI systems to generate high-quality concept art, characters, environments, and cinematic references. The story is set on an ancient alien planet, featuring two opposing civilizations with distinct cultures, architecture, costumes, and visual identities. Throughout this stage, I generated multiple viewpoints and design variations for every major character, environment, and prop. These high-quality references established a consistent visual language and provided a strong foundation for the later stages of AI video production and shot generation."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/07.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/09.jpg"
+      },
+      {
+        "type": "text",
+        "text": "After completing the AI storyboard, character designs, environment concepts, and keyframes, I bring all of these assets into TyperNow for final video production. The keyframes place the characters inside the designed environments and define the exact camera angle, composition, and visual moment that must appear in each shot. TyperNow provides a node-based production system where I can connect different images, assign reference frames, write prompts, and organize the entire generation process within one interface. This allows me to manage the relationship between characters, environments, camera movement, and shot continuity more clearly. I also use AI coding tools such as Claude to help develop more specific prompts for different shots, improving motion quality, consistency, and cinematic control throughout the final video."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/10.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/2Xt7IvJS-Aw/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "To maintain visual consistency throughout the film, I generate a large library of reference images for every important element, including characters, environments, props, costumes, and symbolic objects such as the flower that represents Karma. Rather than relying only on text prompts, I reference these images through the node-based workflow during every stage of video generation. Each shot can reuse the same visual references for characters, scenes, and key props, significantly improving consistency across different generations. This approach helps preserve character identity, environment design, and prop details throughout the entire film, making the final result feel much more coherent and production-ready."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/11.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/JgzyxSWa7oK/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/12.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/APvyFN7A7UI/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "During video generation, I use three layers of control to make the results as consistent as possible. First, I create a camera layout that defines the position and movement of the camera throughout each shot. Second, I design detailed storyboards and keyframes that specify the exact composition, framing, and visual moment for every scene. Finally, I use carefully engineered prompts, refined with Claude, to describe the desired camera motion, lighting, character actions, and cinematic style. By combining camera planning, storyboard references, and structured prompts, I can significantly reduce the randomness of AI video generation. After generating multiple versions of each shot, I select the strongest results and assemble them through editing to produce the final cinematic sequence."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/13.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/F6dDZrMPbk4/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/14.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/CTuXN2jzsXU/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-video-generation/15.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/8A2ccfr38Cr/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "After the AI video generation stage, I complete the project through post-production and editing. Instead of relying on a single AI-generated result, I generate multiple versions of each shot and carefully select the strongest takes, the smoothest motion, and the most coherent sequences. These clips are then edited together using professional video editing software such as CapCut and Adobe Premiere Pro to improve pacing, shot continuity, and overall cinematic quality.\nFor audio production, I use AI tools such as ElevenLabs and Claude to generate background music, sound effects, and custom audio elements that match the atmosphere of each scene. Finally, all visual and audio assets are combined through the editing process, resulting in a complete cinematic short film with consistent storytelling, visual quality, and sound design."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/TaCZG-SW9gY/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
+  },
+  {
+    "number": "015",
+    "slug": "vibe-coding-website",
+    "category": "ai",
+    "title": "Vibe Coding Website",
+    "content": [
+      {
+        "type": "text",
+        "text": "Vibe Coding |  Website Rebrand  | Visual Desgin"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Rebranding and redevelopment of an AI agent company website. Starting from the original website, I conducted market and visual research, redesigned the brand identity, and rebuilt the entire website using AI-generated images, videos, 3D assets, and modern web coding workflows. The project leveraged Codex, Claude, and AI-assisted development tools to deliver a complete end-to-end website experience."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/02.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/03.jpg"
+      },
+      {
+        "type": "text",
+        "text": "Before starting the redesign, I analyzed over 50 AI and technology company websites to identify common visual patterns and design trends. The research focused on color usage, typography, layout, and overall visual style, providing a clear direction for the rebranding and ensuring the final design aligned with current industry standards."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/05.jpg"
+      },
+      {
+        "type": "text",
+        "text": "To accelerate the creative process, AI tools were extensively used throughout the website redesign, including logo rebranding, visual assets, hero images, landing-page animations, and promotional videos. I defined the overall creative direction and visual style, while AI tools were used to generate and iterate the final assets. The workflow combined GPT, Gemini, Nobanana, AI image generation models, Runway, Hailuo AI, and other AI video generation tools to efficiently produce high-quality visual content."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/06.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The website was developed using an AI-assisted web coding workflow powered by Codex and Claude. I first established the overall website architecture, user flow, and interaction logic before building the core framework. Once the structure was complete, I integrated AI-generated videos, animations, and visual assets to create dynamic backgrounds and interactive experiences. After confirming that all content and functionality were in place, I refined the details by replacing placeholder assets with higher-quality images, videos, and animations. Finally, I conducted multiple rounds of testing and optimization, using AI-assisted web coding to review interactions, identify issues, and improve the overall user experience."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/07.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/09.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/10.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/D-wyh7Ms8MA/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "After completing the core branding, interaction flow, and AI-generated visual content, I focused on enhancing the overall user experience. My goal was to create a more immersive and memorable website by introducing additional 3D interactions beyond the original interface. I designed and built a stylized blue \"data city\" as the main 3D environment, with a virtual camera that users can navigate using mouse scrolling. As users move through the scene, they explore different AI agent experiences in a more engaging and interactive way. This 3D navigation not only strengthens the brand identity but also creates a unique experience that makes the website more memorable."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/11.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/12.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/13.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/14.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The 3D interactive experience was first planned and built in Blender, where I designed the overall environment, camera path, and user interaction flow to create a clear navigation experience. After the core scene was completed, I used AI coding agents such as Claude and Codex through MCP workflows to generate and refine animations, including camera movement, object rotation, and environmental motion, using natural language. The finished scene was then exported as a GLB file and integrated into the website. Through AI-assisted web coding, I connected the 3D scene with the website's interaction logic, allowing users to scroll through the data city, discover different AI agent sculptures, and click them to navigate to the corresponding pages. This transforms traditional web navigation into an immersive 3D exploration, creating a more engaging, memorable, and brand-focused user experience."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/CmV-pEwRobg/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "In addition, I designed a unified visual system for the three AI agent categories—Sustainability, Healthcare, and Predictive—using a consistent color palette and character design language. These characters can be extended across future branding materials, including posters, banners, and marketing campaigns, creating a more cohesive brand identity. They can also serve as interactive AI assistants on the website, helping users communicate with AI through natural language, making information easier to access while creating a friendlier and more approachable experience."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/15.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/16.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/17.jpg"
+      },
+      {
+        "type": "text",
+        "text": "To extend the website beyond a traditional browsing experience, I explored integrating AI agents as interactive digital assistants. Using the ElevenLabs API, I connected the AI characters with the website's content, enabling users to engage in natural voice conversations and instantly access relevant information about the company's products, services, and projects. This concept transforms static website content into an interactive, conversational experience, allowing visitors to navigate information more efficiently while creating a stronger connection between the brand, its AI characters, and its digital presence."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/4HUnvwNHw-J/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "This project involved the complete visual redesign of an AI-powered healthcare website based on an existing platform. Building upon the brand's established identity, I redefined the overall visual language using its core colors and design elements to create a more cohesive and recognizable brand experience. I also enhanced the healthcare-focused visual system with more intuitive and engaging graphics, while optimizing the website's interaction design, content hierarchy, and user flow to improve usability, strengthen the communication of complex AI-driven healthcare concepts, and deliver a more polished and user-centered digital experience."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/18.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/19.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/vibe-coding-website/20.jpg"
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/26dhN-WVurB/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      },
+      {
+        "type": "text",
+        "text": "Through these website projects, I established a new creative workflow that combines web development with AI-powered tools to build more engaging and interactive digital experiences. By integrating technologies such as AI image and video generation, conversational AI, 3D web experiences, and AI-driven software control through MCP workflows, I explored how emerging tools can work together within a unified pipeline. This approach enables the creation of richer interactions, more dynamic user experiences, and innovative web applications that go beyond traditional websites, transforming them into intelligent, immersive, and highly interactive digital products.\n\n↑Back to Top\n\nPowered by Adobe Portfolio\n\n// fix for Safari's back/forward cache\nwindow.onpageshow = function(e) {\nif (e.persisted) { window.location.reload(); }\n};\n\nvar __config__ = {\"page_id\":\"p6a6b42fbd901bc612cd2f6979ff9f53c5cd064db4b8e2fd14967c\",\"theme\":{\"name\":\"mell\"},\"pageTransition\":true,\"linkTransition\":true,\"disableDownload\":false,\"localizedValidationMessages\":{\"required\":\"This field is required\",\"Email\":\"This field must be a valid email address\"},\"lightbox\":{\"enabled\":true,\"color\":{\"opacity\":0.94,\"hex\":\"#fff\"}},\"cookie_banner\":{\"enabled\":false}};"
+      }
+    ]
+  },
+  {
+    "number": "016",
+    "slug": "ai-digital-generate",
+    "category": "ai",
+    "title": "AI Digital Twin",
+    "content": [
+      {
+        "type": "text",
+        "text": "DigitalTwin  | GenerativeAI | RealTimeVisualization"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/01.jpg"
+      },
+      {
+        "type": "text",
+        "text": "This project focuses on developing an AI-assisted Digital Twin system for the mining industry. The workflow begins with comprehensive research into a real mining site, including its geographic location, operational processes, equipment, and production workflow. Based on this research, AI tools are used to generate 3D assets and environmental components, which are then assembled in Unreal Engine to recreate the mining environment. Building on the scene, AI coding agents such as Claude, Codex, and MCP are used to develop interactive features, including camera control, UI systems, and real-time data connections. The final goal is to create an interactive Digital Twin platform that visualizes mining operations and supports real-time monitoring, data visualization, and intelligent user interaction."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/02.jpg"
+      },
+      {
+        "type": "text",
+        "text": "he project uses Unreal Engine as the central production platform. Cesium provides real-world GIS terrain and geospatial data, creating an accurate foundation for the mining environment. AI-generated concept images are used to design the required equipment and assets, while Tripo AI and Hunyuan 3D accelerate the initial 3D model generation process. Blender is used for model adjustment, cleanup, and asset preparation before the models are imported into Unreal Engine for scene assembly.\n\nThe complete software pipeline is: research and GIS data → Cesium and Unreal Engine → AI concept generation → Tripo AI or Hunyuan 3D → Blender optimization → Unreal Engine scene assembly → PCG and AI-agent development → UI and real-time data integration → interactive mining Digital Twin."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/03.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The project begins with research on a real mining site in Colorado. We first study the site's geographic location, mining operations, equipment, and production workflow to understand how the environment functions in the real world. Since the project is based on a real location, accurate GIS data is essential. We use the Cesium plugin in Unreal Engine to stream high-quality geospatial data and terrain directly into the engine. This provides a realistic digital foundation that matches the real-world environment. Based on this GIS data, we continue building the mining site, placing assets, and developing the complete Digital Twin workflow inside Unreal Engine."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/04.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The early research stage focuses on understanding how a real mining site operates. This includes studying the complete industrial process, from mineral extraction and transportation to crushing, screening, grinding, and final processing. Each stage must follow the actual operational sequence used in the real mine, including the corresponding industrial machinery, equipment layout, and connections between different production areas. Based on this research, the entire mining workflow is reconstructed in 3D as accurately as possible, creating a one-to-one digital representation of the real production process for the Digital Twin system."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/06.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The asset creation process is also driven by real-world research. Based on the mining workflow, we first collect references for different types of industrial machinery and equipment using AI-assisted research. AI image generation is then used to produce higher-quality reference images from multiple viewpoints, giving us more complete design information than traditional image searches. These references are used as the input for AI 3D generation tools, such as Tripo AI and Hunyuan 3D, to rapidly create the initial 3D assets. The generated models are further refined in Blender when necessary before being imported into Unreal Engine. Finally, these optimized assets are assembled into the Digital Twin environment according to the real mining process and equipment layout, ensuring both visual accuracy and consistency with the actual industrial workflow."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/07.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/09.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/10.jpg"
+      },
+      {
+        "type": "text",
+        "text": "The complete environment assembly was carried out by me. Based on real mining references and research, I analyzed each stage of the industrial workflow and recreated it step by step in Unreal Engine. I determined where each piece of equipment should be placed, how the different production areas should connect, and how materials move through the site from extraction to processing. My responsibility was not only to make the scene visually convincing, but also to ensure that its layout and workflow accurately reflected the operation of a real mining site."
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/11.jpg"
+      },
+      {
+        "type": "image",
+        "src": "assets/portfolio/ai-digital-generate/12.jpg"
+      },
+      {
+        "type": "text",
+        "text": "All assets in the environment were created and placed according to real-world mining references. I first completed the main scene assembly manually in Unreal Engine, including the terrain, industrial equipment, production areas, and the spatial relationships between different stages of the mining process. After the environment was established, I used AI coding agents such as Claude and Codex through MCP to assist with lightweight development tasks. These included camera controls for presenting different parts of the site, UI systems for displaying equipment and operational information, and other interactive functions. This integration made the development process faster and more efficient while allowing me to remain in control of the overall design and implementation."
+      },
+      {
+        "type": "embed",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/A7ZoeAiheg5/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+      }
+    ]
   }
 ]

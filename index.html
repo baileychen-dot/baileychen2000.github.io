@@ -916,6 +916,7 @@
         font-size: clamp(20px, 2.2vw, 34px);
         font-weight: 300;
         line-height: 1.25;
+        white-space: pre-line;
       }
       .next-project {
         width: 100%;
@@ -1309,6 +1310,7 @@
             <button class="filter active" data-filter="all">All</button>
             <button class="filter" data-filter="team">Team</button>
             <button class="filter" data-filter="3d">3D</button>
+            <button class="filter" data-filter="ai">AI</button>
           </div>
 
           <div class="project-list" aria-live="polite">
@@ -2173,6 +2175,10 @@
         };
         const roleBySlug = {
           "game-project": "Art director / Lead environment artist",
+          "ai-3d-workflow": "AI 3D workflow designer",
+          "ai-video-generation": "Writer / AI video director",
+          "vibe-coding-website": "Visual designer / AI-assisted developer",
+          "ai-digital-generate": "Environment artist / Technical artist",
           "environment-design": "Environment artist",
           "character-design": "Character artist",
           "substance-designer": "Material artist",
@@ -2186,8 +2192,15 @@
           "video-production": "Video producer"
         };
 
+        const toolsBySlug = {
+          "ai-3d-workflow": "Blender, ComfyUI, MidJourney, GPT, Unreal Engine",
+          "ai-video-generation": "MidJourney, Runway, Higgsfield, LTX Studio",
+          "vibe-coding-website": "Codex, Claude, Blender, AI image & video tools",
+          "ai-digital-generate": "Unreal Engine, Cesium, Tripo AI, Hunyuan 3D, Blender"
+        };
+
         try {
-          const response = await fetch("portfolio-projects.json?v=3", { cache: "no-store" });
+          const response = await fetch("portfolio-projects.json?v=5", { cache: "no-store" });
           if (!response.ok) throw new Error(`Project data returned ${response.status}`);
           const importedProjects = await response.json();
 
@@ -2197,7 +2210,7 @@
             }
             let content = project.content.map((item) => ({
               ...item,
-              text: item.text ? cleanProjectText(item.text) : item.text
+              text: item.text && project.category !== "ai" ? cleanProjectText(item.text) : item.text
             }));
             if (project.slug === "game-project") {
               let firstImageReplaced = false;
@@ -2229,11 +2242,11 @@
               ...project,
               content,
               title: titleOverrides[project.slug] || project.title,
-              categoryLabel: project.category === "team" ? "Team project" : "3D project",
+              categoryLabel: { team: "Team project", ai: "AI project" }[project.category] || "3D project",
               description,
               role: roleBySlug[project.slug] || "3D artist",
               year: "Selected work",
-              tools: "3D production / Real-time media",
+              tools: toolsBySlug[project.slug] || "3D production / Real-time media",
               image: coverOverrides[project.slug] || firstImage
             };
           });
