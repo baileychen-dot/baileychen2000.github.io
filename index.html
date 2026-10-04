@@ -921,15 +921,13 @@
       }
       .connect-grid {
         display: grid;
-        grid-template-columns: repeat(8, minmax(0, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 14px;
         width: min(1100px, 100%);
         margin: clamp(36px, 6vh, 70px) auto 0;
       }
-      .connect-grid > * { grid-column: span 2; }
-      .connect-grid > :nth-child(5) { grid-column: 2 / span 2; }
       .connect-card { grid-template-columns: 1fr auto; align-items: end; min-height: 120px; }
-      .connect-card span { grid-column: 1 / -1; }
+      .connect-card span { grid-column: 1 / -1; overflow-wrap: anywhere; }
       .connect-card i { display: flex; font-style: normal; }
       .arrow-icon { display: block; width: 1em; height: 1em; }
       .connect-card .arrow-icon { width: 20px; height: 20px; }
@@ -943,8 +941,6 @@
         .studio-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         .studio-grid > :last-child { grid-column: 1 / -1; }
         .connect-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-        .connect-grid > *, .connect-grid > :nth-child(5) { grid-column: auto; }
-        .connect-grid > :last-child { grid-column: 1 / -1; }
       }
       .studio-footer {
         margin: 46px 0 0;
@@ -1965,7 +1961,8 @@
         { label: "ArtStation", note: "Portfolio", url: "https://www.artstation.com/user-2595486" },
         { label: "YouTube", note: "Video", url: "https://www.youtube.com/channel/UCARppkmr_kvQRJXv19g5NsA" },
         { label: "Instagram", note: "Social", url: "https://www.instagram.com/de19984090616/" },
-        { label: "X", note: "Social", url: "https://x.com/home" },
+        { label: "TikTok", note: "Video", url: "https://www.tiktok.com/@user66148791845725" },
+        { label: "X", note: "Social", url: "https://x.com/jkdjodj" },
         { label: "LinkedIn", note: "Professional", url: "https://www.linkedin.com/in/bailey-chen2000/" },
         { label: "Email", note: "nachen2000@outlook.com", url: "mailto:nachen2000@outlook.com" }
       ];
